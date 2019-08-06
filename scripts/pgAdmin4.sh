@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo "run this script with sudo permission"
-sudo apt-get -y python2.7
+sudo apt-get install -y python2.7
 sudo apt install -y postgresql-10
 sudo apt install -y postgresql-server-dev-10
 sudo apt-get install -y  build-essential libssl-dev libffi-dev libgmp3-dev virtualenv python-pip libpq-dev python-dev
