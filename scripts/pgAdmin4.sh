@@ -13,9 +13,9 @@ virtualenv pgAdmin4
 chmod 777 -R pgAdmin4
 cd pgAdmin4
 source bin/activate
-wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v2.1/pip/pgadmin4-2.1-py2.py3-none-any.whl
+wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v4.11/pip/pgadmin4-4.11-py2.py3-none-any.whl
 pip install psycopg2-binary
-pip install pgadmin4-2.1-py2.py3-none-any.whl
+pip install pgadmin4-4.11-py2.py3-none-any.whl
 cp ../../config_local.py lib/python2.7/site-packages/pgadmin4/config_local.py
 pip install flask-htmlmin
 python lib/python2.7/site-packages/pgadmin4/pgAdmin4.py

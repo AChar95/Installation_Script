@@ -8,3 +8,4 @@ tar -vcf google-cloud-sdk-256.0.0-linux-x86_64.tar.gz
 ./google-cloud-sdk/install.sh
 gnome-terminal -e command
 ./google-cloud-sdk/gcloud init
+

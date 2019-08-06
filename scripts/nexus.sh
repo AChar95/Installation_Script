@@ -3,6 +3,9 @@
 echo "***************************** installing of prerequisites ***************************************"
 sudo apt install openjdk-8-jdk
 echo "***************************** downloading latest version of Nexus ***************************************"
+cd /home/${USER}/
+mkdir programs
+cd programs
 wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
 echo "***************************** unpacking nexus.tar.gz file  ***************************************"
 tar -xvf latest-unix.tar.gz
